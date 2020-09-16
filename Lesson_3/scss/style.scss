@@ -1,0 +1,45 @@
+body {
+	padding: 3px;
+}
+.about {
+	&__title {
+		color: aquamarine;
+	}
+
+	&__text p:first-child {
+		color: coral;
+	}
+	&__text p:last-child {
+		color: darkgreen;
+	}
+}
+.title {
+	font-size: 30px;
+}
+.youth {
+	&__title {
+		color: red;
+	}
+
+	&__text {
+		color: slateblue;
+	}
+}
+.achievements {
+	&__title {
+		color: springgreen;
+	}
+
+	&__list li:first-child {
+		color: mediumvioletred;
+	}
+	&__list li:nth-child(2) {
+		color: pink;
+	}
+	&__list li:nth-child(3) {
+		color: purple;
+	}
+	&__list li:last-child {
+		color: brown;
+	}
+}
